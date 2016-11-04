@@ -17,7 +17,7 @@ return [
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
-            "title_append"  => " | Anax Flat",
+            "title_append"  => " | litemerafrukt",
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
