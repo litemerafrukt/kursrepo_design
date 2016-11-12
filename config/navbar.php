@@ -1,8 +1,38 @@
 <?php
 /**
  * Config-file for navigation bar.
- *
  */
+
+$menuItems = [
+    "index" => [
+        "text"  => t("Hem"),
+        "url"   => $this->di->get("url")->create(""),
+        "title" => t("Första sidan"),
+        "mark-if-parent" => true,
+    ],
+
+    "report" => [
+        "text"  => t("Redovisningar"),
+        "url"   => $this->di->get("url")->create("report"),
+        "title" => t("Redovisningar av kursmoment"),
+        "mark-if-parent" => true,
+    ],
+
+    "test" => [
+        "text"  => t("Tester"),
+        "url"   => $this->di->get("url")->create("test"),
+        "title" => t("Sida för diverse tester"),
+        "mark-if-parent" => true,
+    ],
+
+    "about" => [
+        "text"  => t("Om"),
+        "url"   => $this->di->get("url")->create("about"),
+        "title" => t("Om denna webbplats"),
+        "mark-if-parent" => true,
+    ]
+];
+
 return [
 
     // Name of this menu
@@ -12,38 +42,19 @@ return [
         "class" => "rm-default rm-desktop",
 
         // Here comes the menu structure
-        "items" => [
-
-            "home" => [
-                "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Första sidan"),
-                "mark-if-parent" => true,
-            ],
-
-            "report" => [
-                "text"  => t("Redovisningar"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Redovisningar av kursmoment"),
-                "mark-if-parent" => true,
-            ],
-
-            "test" => [
-                "text"  => t("Tester"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Sida för diverse tester"),
-                "mark-if-parent" => true,
-            ],
-
-            "about" => [
-                "text"  => t("Om"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om denna webbplats")
-            ],
-        ],
+        "items" => $menuItems,
     ],
 
+    // Name of this menu
+    "navbarMax" => [
+        // Use for styling the menu
+        "id" => "rm-menu",
+        "wrapper" => null,
+        "class" => "rm-default rm-mobile",
 
+        // Here comes the menu structure
+        "items" => $menuItems,
+    ],
 
 /*
     // Used as menu together with responsive menu

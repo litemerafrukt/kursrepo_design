@@ -1,15 +1,15 @@
 ---
 titleBreadcrumb: Hem
 
-views:
-    byline:
-        region: after-main
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
+#views:
+#    byline:
+#        region: after-main
+#        template: default/content
+#        sort: 1
+#        data:
+#            meta:
+#                type: content
+#                route: block/byline
 
 ...
 Välkommen till min me-sida
