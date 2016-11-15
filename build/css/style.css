@@ -715,11 +715,18 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /** --------------------------------------------------------------
  *  General stuff, tag-level
  */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
   color: #333;
   font-family: "Lekton", sans-serif;
-  font-size: 1.2rem;
-  overflow: scroll;
+  overflow-y: scroll;
   line-height: 1.5rem;
 }
 @media (max-width: 550px) {
