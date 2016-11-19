@@ -18,6 +18,20 @@ $menuItems = [
         "mark-if-parent" => true,
     ],
 
+    "grid" => [
+        "text"  => t("Grid"),
+        "url"   => $this->di->get("url")->create("grid"),
+        "title" => t("Visa sida med grid"),
+        "mark-if-parent" => true,
+    ],
+
+    "typography" => [
+        "text"  => t("Typography"),
+        "url"   => $this->di->get("url")->create("typography"),
+        "title" => t("Visa sida med horisontell grid"),
+        "mark-if-parent" => true,
+    ],
+
     "test" => [
         "text"  => t("Tester"),
         "url"   => $this->di->get("url")->create("test"),
