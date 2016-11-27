@@ -19,6 +19,7 @@
  */
 /* Document
    ========================================================================== */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 html {
   font-family: sans-serif;
   /* 1 */
@@ -514,7 +515,6 @@ template {
 }
 .footer {
   width: 100%;
-  align-self: flex-end;
 }
 .site-header {
   flex: 0 0 auto;
@@ -652,12 +652,12 @@ template {
 }
 a.rm-button {
   display: inline-block;
-  color: inherit;
+  color: #444;
   background-color: transparent;
   outline: none;
 }
 a.rm-button:active {
-  color: inherit;
+  color: #444;
   background-color: transparent;
 }
 a.rm-button .rm-button-face-1 {
@@ -851,28 +851,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max.rm-swipe-right .rm-mobile {
   right: 0;
-}
-/* Color palette constructed from deeppink on paletton.com */
-/* Main Primary color */
-/* Main Secondary color (1) */
-/* Main Secondary color (2) */
-/** --------------------------------------------------------------
- *  General stuff, tag-level
- */
-.show-grid {
-  background: url(../img/grid/grid960x12x60x20.png) repeat-y fixed center center;
-  background-size: 100% auto;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1300px;
-}
-@media (min-width: 1300px) {
-  .show-grid {
-    background-size: 1300px auto;
-  }
-}
-.show-typography {
-  background: url(../img/typography/horisontal-grid-24.png);
 }
 h1,
 h2,
@@ -1147,66 +1125,38 @@ h1,
 h2 {
   border: none;
   font-weight: bold;
-  text-transform: uppercase;
 }
-body {
-  font: 100.01%/1.5 "Roboto", sans-serif;
-  color: #444;
-  overflow-y: scroll;
+code,
+kbd {
+  font-size: 16px;
+  border: none;
+  line-height: 0;
 }
-img {
-  max-width: 100%;
-}
-figcaption {
-  font-size: small;
-}
-a {
-  color: #444;
-  text-decoration: none;
-  border-bottom: 1px solid #14FF23;
-}
-a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid #FCFF14;
-}
-a:visited {
-  color: #848484;
-}
-code {
+/** --------------------------------------------------------------
+ *  hljs tweaks
+ */
+.hljs {
   font-size: 16px;
   line-height: 24px;
-  border: none;
+  padding: 0;
 }
-/** --------------------------------------------------------------
- *  General stuff, wrapping classes
- */
-.site-header {
-  display: flex;
-  flex: 1;
-  font-family: "miriam libre", sans-serif;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 5px;
-  margin-bottom: -3px;
+.hljs-tag {
+  background: #fff;
 }
-.selected a {
-  background-color: #FDFF72;
+.show-grid {
+  background: url(../img/grid/grid960x12x60x20.png) repeat-y fixed center center;
+  background-size: 100% auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
 }
-/** --------------------------------------------------------------
- *  header styling
- */
-.site-logo-text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: x-large;
-  border: 3px solid #444;
-  padding: 0 7px;
-  letter-spacing: 0.1rem;
+@media (min-width: 1300px) {
+  .show-grid {
+    background-size: 1300px auto;
+  }
 }
-.site-logo-text a {
-  color: #FF1494;
-  text-decoration: none;
-  border-bottom: none;
+.show-typography {
+  background: url(../img/typography/horisontal-grid-24.png);
 }
 .rm-desktop {
   display: flex;
@@ -1222,14 +1172,14 @@ code {
   border-bottom: none;
 }
 .rm-desktop li a:hover {
-  border-bottom: 3px solid #FDFF72;
+  border-bottom: 3px solid #C8EF99;
   text-decoration: none;
 }
 .rm-desktop li {
   border-left: 1px solid #c3c3c3;
 }
 .rm-desktop .selected a {
-  border-bottom: 3px solid #14FF23;
+  border-bottom: 3px solid #316B85;
   background-color: #fff;
 }
 .rm-menu-button {
@@ -1253,9 +1203,6 @@ code {
 .rm-max.rm-navbar a:hover {
   border: none;
 }
-.rm-max.rm-navbar a:visited {
-  color: #fff;
-}
 .rm-max.rm-navbar .selected a {
   background-color: #444;
 }
@@ -1269,6 +1216,71 @@ code {
   .rm-max.rm-navbar {
     display: block;
   }
+}
+/* Color palette constructed from deeppink on paletton.com */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/** --------------------------------------------------------------
+ *  General stuff, tag-level
+ */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+body {
+  font: 100.01%/1.5 "Roboto", sans-serif;
+  color: #444;
+  overflow-y: scroll;
+}
+img {
+  max-width: 100%;
+}
+figcaption {
+  font-size: small;
+}
+a {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #316B85;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #87C041;
+}
+a:visited {
+  color: #848484;
+}
+/** --------------------------------------------------------------
+ *  General stuff, wrapping classes
+ */
+.site-header {
+  display: flex;
+  flex: 1;
+  font-family: "miriam libre", sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: -3px;
+}
+.selected a {
+  background-color: #C8EF99;
+}
+/** --------------------------------------------------------------
+ *  header styling
+ */
+.site-logo-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  border: 3px solid #444;
+  padding: 0 7px;
+  letter-spacing: 0.1rem;
+}
+.site-logo-text a {
+  color: #D36247;
+  text-decoration: none;
+  border-bottom: none;
 }
 /** --------------------------------------------------------------
  *  Breadcrumb
@@ -1356,15 +1368,4 @@ code {
 }
 .site-footer ul li {
   display: inline;
-}
-/** --------------------------------------------------------------
- *  hljs tweaks
- */
-.hljs {
-  font-size: 16px;
-  line-height: 24px;
-  padding: 0;
-}
-.hljs-tag {
-  background: #fff;
 }

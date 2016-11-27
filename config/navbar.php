@@ -18,25 +18,80 @@ $menuItems = [
         "mark-if-parent" => true,
     ],
 
-    "grid" => [
-        "text"  => t("Grid"),
-        "url"   => $this->di->get("url")->create("grid"),
-        "title" => t("Visa sida med grid"),
-        "mark-if-parent" => true,
-    ],
+    // "grid" => [
+    //     "text"  => t("Grid"),
+    //     "url"   => $this->di->get("url")->create("grid"),
+    //     "title" => t("Visa sida med grid"),
+    //     "mark-if-parent" => true,
+    // ],
+    //
+    // "typography" => [
+    //     "text"  => t("Typography"),
+    //     "url"   => $this->di->get("url")->create("typography"),
+    //     "title" => t("Visa sida med horisontell grid"),
+    //     "mark-if-parent" => true,
+    // ],
+    //
+    // "test" => [
+    //     "text"  => t("Tester"),
+    //     "url"   => $this->di->get("url")->create("test"),
+    //     "title" => t("Sida för diverse tester"),
+    //     "mark-if-parent" => true,
+    // ],
 
-    "typography" => [
-        "text"  => t("Typography"),
-        "url"   => $this->di->get("url")->create("typography"),
-        "title" => t("Visa sida med horisontell grid"),
+    "assignments" => [
+        "text"  => t("Uppgifter"),
+        "url"   => $this->di->get("url")->create("assignments"),
+        "title" => t("Kursmomentsuppgifter"),
         "mark-if-parent" => true,
-    ],
 
-    "test" => [
-        "text"  => t("Tester"),
-        "url"   => $this->di->get("url")->create("test"),
-        "title" => t("Sida för diverse tester"),
-        "mark-if-parent" => true,
+        "submenu" => [
+            "items" => [
+
+                "analysis" => [
+                    "text"  => t("Analyser"),
+                    "url"   => $this->di->get("url")->create("analysis"),
+                    "title" => t("Analysuppgifter"),
+                    "mark-if-parent" => true,
+                ],
+
+                "grid" => [
+                    "text"  => t("Grid"),
+                    "url"   => $this->di->get("url")->create("grid"),
+                    "title" => t("Visa sida med grid"),
+                    // "mark-if-parent" => true,
+                ],
+
+                "typography" => [
+                    "text"  => t("Typography"),
+                    "url"   => $this->di->get("url")->create("typography"),
+                    "title" => t("Visa sida med horisontell grid"),
+                    // "mark-if-parent" => true,
+                ],
+
+                "themes" => [
+                    "text"  => t("Tematankar"),
+                    "url"   => $this->di->get("url")->create("theme"),
+                    "title" => t("Temaförklaringar"),
+                    // "mark-if-parent" => true,
+                ],
+
+                "themeselector" => [
+                    "text"  => t("Temaväljare"),
+                    // "url"   => "index.php/theme-selector",
+                    "url"   => $this->di->get("url")->create("theme-selector"),
+                    "title" => t("Ändra tema"),
+                    // "mark-if-parent" => true,
+                ],
+
+                "test" => [
+                    "text"  => t("Tester"),
+                    "url"   => $this->di->get("url")->create("test"),
+                    "title" => t("Sida för diverse tester"),
+                    // "mark-if-parent" => true,
+                ],
+            ],
+        ],
     ],
 
     "about" => [

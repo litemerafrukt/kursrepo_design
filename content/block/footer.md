@@ -4,8 +4,8 @@ Copyright &copy; 2016 [Anders Nygren](http://litemerafrukt.se) (litemerafrukt@gm
 * [Kakor](cookies)
 * [Kontakt](contact)
 
-<a onclick="toggleGrid()">Toggle Grid</a>
-<a onclick="toggleTypography()">Toggle Typography</a>
+<a id="toggle-grid" href="#toggle-grid" onclick="toggleGrid()" href="#">Toggle Grid</a>
+<a id="toggle-typography" href="#toggle-typography" onclick="toggleTypography()" href="#">Toggle Typography</a>
 
 <script>
 function toggleGrid() {

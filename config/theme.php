@@ -26,9 +26,9 @@ return [
             "stylesheets" => [
                 /* "https://fonts.googleapis.com/css?family=Lekton", */
                 /* "https://fonts.googleapis.com/css?family=Miriam+Libre|Source+Sans+Pro", */
-                "https://fonts.googleapis.com/css?family=Montserrat|Roboto",
-                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-                "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/idea.min.css",
+                // "https://fonts.googleapis.com/css?family=Montserrat|Roboto",
+                // "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                // "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/idea.min.css",
                 "css/style.min.css",
             ],
             "styleInline" => null,
@@ -60,7 +60,7 @@ return [
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "litemerafrukt❯❯",
+                "siteLogoText"  => "litemerafrukt",
                 /* "siteLogoTextIcon" => "img/favicon/favicon_40x40.png", */
                 /* "siteLogoTextIconAlt" => "Small logo", */
                 /* "siteLogo"      => null, //"img/anax.png", */

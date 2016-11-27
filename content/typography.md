@@ -31,6 +31,8 @@ No one rejects, dislikes, or avoids pleasure itself, because it is pleasure. Thi
 
 No one rejects, dislikes, or avoids pleasure itself, because it is pleasure. This is text formatted as `sample output from command` codish style. But because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
 
+`this is a standalone inline code line`
+
 <dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages. Hoover to see its definition.
 
 The <abbr title="World Health Organization">WHO</abbr> was founded in 1948\. Hoover to see the abbrevation spelled out.
