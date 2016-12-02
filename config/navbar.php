@@ -48,10 +48,17 @@ $menuItems = [
         "submenu" => [
             "items" => [
 
+                "picarticle" => [
+                    "text"  => t("Bildartikel"),
+                    "url"   => $this->di->get("url")->create("images"),
+                    "title" => t("En artikel med bilder"),
+                    // "mark-if-parent" => true,
+                ],
+
                 "blogg" => [
                     "text"  => t("Blogg"),
                     "url"   => $this->di->get("url")->create("blogg"),
-                    "title" => t("Bilderbloggen"),
+                    "title" => t("Brutalbloggen"),
                     "mark-if-parent" => true,
                 ],
 
