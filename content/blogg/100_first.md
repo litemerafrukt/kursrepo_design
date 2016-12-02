@@ -4,42 +4,17 @@ published: "2016-12-01"
 #category:
 #    - dagens bild
 ...
-Dbwebbisar hoppa omkring bland träden
+Sparta - brutalt studentboende
 ==================================
 
-<!-- <figure class="figure right">
-<a href="img/dbwebbisar.jpg"><img src="img/dbwebbisar.jpg?w=200&h=150&a=0,20,20,50&cf" alt=""/></a>
-</figure> -->
-
-[FIGURE src="img/dbwebbisar.jpg?w=200&h=150&a=0,20,20,50&cf" class="right"]
-
-
-Se hur de små dbwebbisarna hoppar runt i trädet.
-
+[FIGURE src="image/blogg/main.jpg?w=650&h=200&f=contrast,-20&f0=brightness,20&crop-to-fit&area=0,0,25,0" class="center"]
 
 <!--more-->
 
+Först ut i denna serie om brutalistisk arkitektur är Sparta i Lund. Här är ingången från öster som visar en rad brutalistiska stilelement. Naken betong, betongbalkar som detaljer och en klassisk betongtrappa.
 
+Bilden är tagen med en Fujifilm X-T1, 35mm fast objektiv.
 
-Var kommer de ifrån? {#var}
------------------------------------
+[FIGURE src="image/blogg/main.jpg?w=650&f=grayscale&f0=brightness,20&f1=contrast,-30" caption="Brutalistisk arkitektur gör sig ofta bra i B&W"]
 
-<!-- <figure class="figure">
-<a href="img/dbwebbisar.jpg"><img src="img/dbwebbisar.jpg?w=700" alt="Här är en liten del av den större planschen."/></a>
-<figcaption markdown=1>Här är en liten del av den större planschen.</figcaption>
-</figure> -->
-
-[FIGURE src="img/dbwebbisar.jpg?w=700" caption="Här är en liten del av den större planschen."]
-
-Det är [Anna på Montage](http://montage.se/) som ritade dem en gång i tiden till en plansch.
-
-Planschen ser i sin helhet ut så här, klicka på den för att komma till bilden som fungerar utmärkt som bakgrundsbild på din desktop dator.
-
-<!-- <figure class="figure">
-<a href="https://dbwebb.se/img/dbwebb.jpg"><img src="https://dbwebb.se/img/dbwebb.jpg?w=700" alt="Den stora planschen."/></a>
-<figcaption markdown=1>Den stora planschen.</figcaption>
-</figure> -->
-
-[FIGURE src="https://dbwebb.se/img/dbwebb.jpg?w=700" caption="Den stora planschen."]
-
-Håll till godo!
+[FIGURE src="image/blogg/main.jpg?w=650" caption="Sparta Scheelevägen i all sin härlighet!"]
