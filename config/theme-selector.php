@@ -12,7 +12,7 @@ return [
         "separator0" => "------------------------------------------------",
 
         "base"      => [
-            "title"      => "Minimal style, only the plain base",
+            "title"      => "The plain base",
             "class"      => "",
             "stylesheets" => [
                 "css/base.min.css"
@@ -20,15 +20,15 @@ return [
         ],
 
         "default"   => [
-            "title"      => "The grungy default theme",
-            "class"      => "",
+            "title"      => "Grungy default theme",
+            "class"      => "grungy",
             "stylesheets" => [
                 "css/grungy.min.css"
             ]
         ],
 
         "olddefault"   => [
-            "title"      => "The old default theme",
+            "title"      => "Old default theme",
             "class"      => "",
             "stylesheets" => [
                 "css/style.min.css"
@@ -38,7 +38,7 @@ return [
         "separator1" => "------------------------------------------------",
 
         "light"     =>  [
-            "title"      => "Very light theme, white, black and nuances of grey",
+            "title"      => "Light theme",
             "class"      => "light",
             "stylesheets" => [
                 "css/light.min.css"
@@ -46,7 +46,7 @@ return [
         ],
 
         "color"     => [
-            "title"      => "Enhance the light theme by adding a tiny bit of color",
+            "title"      => "A tiny bit of color",
             "class"      => "color",
             "stylesheets" => [
                 "css/color.min.css"
@@ -54,7 +54,7 @@ return [
         ],
 
         "dark"      => [
-            "title"      => "Dark background and light text",
+            "title"      => "Dark theme",
             "class"      => "dark",
             "stylesheets" => [
                 "css/dark.min.css"
@@ -62,7 +62,7 @@ return [
         ],
 
         "colorful"  => [
-            "title"      => "Make a very colorful theme",
+            "title"      => "Colorful theme",
             "class"      => "colorful",
             "stylesheets" => [
                 "css/colorful.min.css"
@@ -70,7 +70,7 @@ return [
         ],
 
         "typography" => [
-            "title"      => "A theme where the typography really stands out",
+            "title"      => "Typography theme",
             "class"      => "light",
             "stylesheets" => [
                 "css/typographystyle.min.css"
@@ -80,7 +80,7 @@ return [
         "separator2" => "------------------------------------------------",
 
         "fun"       => [
-            "title"      => "All fun, test and play, make it stand out!",
+            "title"      => "Fun, test and play!",
             "class"      => "fun",
             "stylesheets" => [
                 "css/fun.min.css"
@@ -90,8 +90,8 @@ return [
         "separator2" => "------------------------------------------------",
 
         "grungy"       => [
-            "title"      => "Grungy",
-            "class"      => "Grungy",
+            "title"      => "Grungy theme",
+            "class"      => "grungy",
             "stylesheets" => [
                 "css/grungy.min.css"
             ]
