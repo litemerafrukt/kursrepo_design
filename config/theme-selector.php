@@ -20,7 +20,15 @@ return [
         ],
 
         "default"   => [
-            "title"      => "Your own selected default theme",
+            "title"      => "The grungy default theme",
+            "class"      => "",
+            "stylesheets" => [
+                "css/grungy.min.css"
+            ]
+        ],
+
+        "olddefault"   => [
+            "title"      => "The old default theme",
             "class"      => "",
             "stylesheets" => [
                 "css/style.min.css"
