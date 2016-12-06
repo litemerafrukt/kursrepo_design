@@ -78,5 +78,15 @@ return [
                 "css/fun.min.css"
             ]
         ],
+
+        "separator2" => "------------------------------------------------",
+
+        "grungy"       => [
+            "title"      => "Grungy",
+            "class"      => "Grungy",
+            "stylesheets" => [
+                "css/grungy.min.css"
+            ]
+        ],
     ]
 ];
