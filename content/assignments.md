@@ -1,8 +1,10 @@
 #Kursmomentsuppgifter
 
+* [Designprinciper](design-principle)
+* [Designelement](design-element)
+* [Analyser](analysis)
 * [Bildartikel](images)
 * [Blogg](blogg)
-* [Analyser](analysis)
 * [Grid](grid)
 * [Typography](typography)
 * [Tematankar](theme)

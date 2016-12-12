@@ -29,7 +29,7 @@ return [
                 // "https://fonts.googleapis.com/css?family=Montserrat|Roboto",
                 // "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
                 // "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/idea.min.css",
-                "css/grungy.min.css",
+                "css/lines.min.css",
             ],
             "styleInline" => null,
 

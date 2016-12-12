@@ -20,10 +20,10 @@ return [
         ],
 
         "default"   => [
-            "title"      => "Grungy default theme",
-            "class"      => "grungy",
+            "title"      => "Default theme",
+            "class"      => "lines",
             "stylesheets" => [
-                "css/grungy.min.css"
+                "css/lines.min.css"
             ]
         ],
 
@@ -87,14 +87,57 @@ return [
             ]
         ],
 
-        "separator2" => "------------------------------------------------",
+        "separator3" => "------------------------------------------------",
 
-        "grungy"       => [
-            "title"      => "Grungy theme",
+        "contrast"   => [
+            "title"      => "Contrast",
             "class"      => "grungy",
             "stylesheets" => [
-                "css/grungy.min.css"
+                "css/contrast.min.css"
             ]
         ],
+
+        "depth"      => [
+            "title"      => "Depth",
+            "class"      => "depth",
+            "stylesheets" => [
+                "css/depth.min.css"
+            ]
+        ],
+
+        "unity"      => [
+            "title"      => "Unity",
+            "class"      => "unity",
+            "stylesheets" => [
+                "css/unity.min.css"
+            ]
+        ],
+
+        "separator4" => "------------------------------------------------",
+
+        "texture"  => [
+            "title"      => "Texture theme",
+            "class"      => "texture",
+            "stylesheets" => [
+                "css/texture.min.css"
+            ]
+        ],
+
+        "gradient"  => [
+            "title"      => "Gradient theme",
+            "class"      => "gradient",
+            "stylesheets" => [
+                "css/gradient.min.css"
+            ]
+        ],
+
+        "lines"      => [
+            "title"      => "Lines theme",
+            "class"      => "lines",
+            "stylesheets" => [
+                "css/lines.min.css"
+            ]
+        ],
+
     ]
 ];

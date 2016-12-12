@@ -48,6 +48,27 @@ $menuItems = [
         "submenu" => [
             "items" => [
 
+                "designprinciples" => [
+                    "text"  => t("Designprinciper"),
+                    "url"   => $this->di->get("url")->create("design-principle"),
+                    "title" => t("Designprinciper"),
+                    "mark-if-parent" => true,
+                ],
+
+                "designelements" => [
+                    "text"  => t("Designelement"),
+                    "url"   => $this->di->get("url")->create("design-element"),
+                    "title" => t("Designelement"),
+                    "mark-if-parent" => true,
+                ],
+
+                "analysis" => [
+                    "text"  => t("Analyser"),
+                    "url"   => $this->di->get("url")->create("analysis"),
+                    "title" => t("Analysuppgifter"),
+                    "mark-if-parent" => true,
+                ],
+
                 "picarticle" => [
                     "text"  => t("Bildartikel"),
                     "url"   => $this->di->get("url")->create("images"),
@@ -59,13 +80,6 @@ $menuItems = [
                     "text"  => t("Blogg"),
                     "url"   => $this->di->get("url")->create("blogg"),
                     "title" => t("Brutalbloggen"),
-                    "mark-if-parent" => true,
-                ],
-
-                "analysis" => [
-                    "text"  => t("Analyser"),
-                    "url"   => $this->di->get("url")->create("analysis"),
-                    "title" => t("Analysuppgifter"),
                     "mark-if-parent" => true,
                 ],
 
